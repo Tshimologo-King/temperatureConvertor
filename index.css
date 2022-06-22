@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./wolves-1341881_1920.jpg);
+}
+
+.cardOne {
+  margin-inline: auto;
+  padding: 20px 20px;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  align-content: center;
+  border: 1px dashed rgb(255, 255, 255);
+  border-radius: 100px;
+  box-shadow: -2px -2px 4px 0px #ffffff, 50px 50px 50px 0px rgba(0, 0, 0, 0.25);
+  background-image: url(./wolves-1341881_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#content {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #c41c1c 67%,
+    #000000 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 30% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: flex;
+  font-size: 20px;
+  padding: 20px;
+  height: 20vh;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+#convertor {
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 100px;
+  align-items: flex-end;
+  
+  box-shadow: -2px -1px 1px 8px #ffffff, 50px 50px 50px 0px rgba(1, 1, 1, 0.25);
+}
+
+button {
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.conversion {
+  margin-top: 18rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #e22185 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 30% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 30px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 30% center;
+  }
+}
